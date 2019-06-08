@@ -6,7 +6,8 @@
 ## 存在时间：Number，如果不设置就是2000ms
 ## 使用方法：
 ## var totast = new Toast("发送到","fail",1000)//实例化
-## //提供了两个回调函数，分别是show的时候，和hidden时候，hidden可以省略
+>* //提供了两个回调函数，分别是show的时候，和hidden时候，hidden可以省略
+
 'totast.show(function(){
       console.log("开始了");
      })
